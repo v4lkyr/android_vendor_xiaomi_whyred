@@ -245,6 +245,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib/hw/sound_trigger.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm660.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.sdm660.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.sdm660.so \
@@ -1020,6 +1021,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmipassthru.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib64/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-osal.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
@@ -1035,6 +1040,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib64/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
